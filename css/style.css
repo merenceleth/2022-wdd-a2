@@ -1,0 +1,309 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5, h6, .highlight, .client-name, .button {
+    font-family: 'Abril Fatface', cursive;
+    color:#232A3D;
+}
+
+p {
+    color:#232A3D;
+}
+
+h1 {
+    font-size: 87px;
+}
+
+h2 {
+    font-size: 60px;
+}
+
+h3 {
+    font-size: 37px;
+}
+
+h4 {
+    font-size: 24px;
+    color: #999999;
+}
+
+body {
+    background-color: #fff;
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+header {
+    background-color: #3EBFFF;
+}
+
+nav {
+    padding: 40px 140px 0px 0px;
+    text-align: left;
+}
+
+nav ul li {
+    display: inline-block;
+    font-size: 16px;
+}
+
+li.about {
+    margin: 0px 27px 0px 0px;
+}
+
+li.services {
+    margin: 0px 27px 0px 27px;
+}
+
+li.projects {
+    margin: 0px 27px 0px 27px;
+}
+
+li.contact {
+    margin: 0px 0px 0px 27px;
+}
+
+a {
+    font-weight: 500;
+    text-decoration: none;
+    color: #fff;
+}
+
+a.button {
+    color: #232A3D;
+    text-transform: uppercase;
+}
+
+a.highlight {
+    color:#232A3D;
+}
+
+img.grid {
+    max-width: 640px;
+}
+
+footer {
+    background-color: #73C0B0;
+    margin-top: -7px;
+}
+
+.container {
+    max-width: 1280px;
+}
+
+.hero {
+    background-image: url("../images/banner.jpg");
+    background-color: #3EBFFF;
+    height: 700px;
+    width: auto;
+    padding: 140px 0px 0px 0px;
+}
+
+.center {
+    display: block;
+    margin: auto auto;
+}
+
+.arrow {
+    padding: 63px 0px 0px 0px;
+}
+
+.row {
+    display: flex;
+}
+
+.col {
+    flex: 1;
+}
+
+.logo {
+    margin: 40px -140px 0px 140px;
+}
+
+.button {
+    background-color: #fff;
+    border-radius: 40px;
+    padding: 15px 35px 15px 35px;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.title {
+    color: #fff;
+    text-align: center;
+}
+
+.grid {
+    height: 520px;
+}
+
+.square {
+    width: 223px;
+}
+
+.grid-content {
+    margin: 95px 95px 102px 88px;
+}
+
+.grid-content h2 {
+    letter-spacing: -1px;
+    padding: 0px 0px 20px 0px;
+}
+
+.content-description {
+    line-height: 28px;
+    margin: 20px -20px 20px 0px;
+}
+
+.highlight {
+    font-size: 22px;
+}
+
+.button-wrapper {
+    position: relative;
+    text-align: left;
+}
+
+.wrapped-text {
+    position: absolute;
+    bottom: 5px;
+}
+
+.two-col {
+    height: 520px;
+    width: 640px;
+}
+
+.cherry-img {
+    background-image: url("../images/cherry.jpg");
+    background-color: #73C0B0;
+}
+
+.orange-img {
+    background-image: url("../images/orange.jpg");
+    background-color: #5BCFFF;
+}
+
+.two-col-heading {
+    text-align: center;
+    padding: 332px 0px 0px 0px;
+}
+
+.two-col-text {
+    line-height: 28px;
+    text-align: center;
+    padding: 15px 120px 40px 120px;
+}
+
+.testimonial-heading {
+    margin-top: 100px;
+    margin-bottom: 80px;
+    text-align: center;
+}
+
+.testimonial-left {
+    margin-left: 168px;
+    margin-right: 71px;
+}
+
+.testimonial-right {
+    margin-left: 71px;
+    margin-right: 168px;
+}
+
+.testimonial-bottom {
+    margin-bottom: 100px;
+}
+
+.client-img {
+    display: block;
+    margin: 0px auto 40px auto;
+}
+
+.client-text {
+    text-align: center;
+    line-height: 28px;
+    margin: 0px 0px 54px 0px;
+}
+
+.client-name {
+    font-size: 20px;
+    margin: 0px 0px 5px 0px;
+    text-align: center;
+}
+
+.client-job {
+    font-size: 13px;
+    text-align: center;
+}
+
+.footer-logo {
+    display: block;
+    margin: 80px auto 20px auto;
+}
+
+.footer-nav {
+    margin-bottom: 60px;
+}
+
+.f-nav-left {
+    margin-left: 496px;
+    margin-right: 54px;
+}
+
+.f-nav-right {
+    margin-left: 54px;
+    margin-right: 496px;
+}
+
+.grey-link {
+    color: #5C6D67;
+}
+
+.social {
+    padding-bottom: 59px;
+}
+
+.facebook {
+    margin-left: 565px;
+    margin-right: 20px;
+}
+
+.twitter {
+    margin-right: 20px;
+}
+
+.pinterest {
+    margin-left: 20px;
+    margin-right: 565px;
+}
+
+/*
+
+===========================
+REFERENCES
+===========================
+Width- 1280px
+Fonts
+-> Abril Fatface 
+-> Poppins 400/500
+Colors
+-> White - #FFF
+-> Black - #232A3D
+-> Pink - #FFC4BC
+-> Yellow - #FFD334
+-> Light greenish - #B0D7CC
+-> Gray greenish - #5C6D67
+
+METHOD 1: Navbar is color+header;
+METHOD 2: Entire bg img area is in main;
+++Use height auto
+++Use display block
+
+*/
